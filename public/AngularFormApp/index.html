@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Example Backbone App</title>
+  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
+  <style>
+    .tm {
+      margin-top: 80px
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container" ng-app = "AddressApp">
+    <div class="row">
+      <div class="col-md-8" id="primary-content">
+        <div ng-view></div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- load the libraries we need -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-route.min.js"></script>
+
+  <!-- load our scripts -->
+  <script src="app.js"></script>
+
+
+
+
+</body>
+
+</html>
